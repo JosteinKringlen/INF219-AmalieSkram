@@ -17,7 +17,7 @@ environment for the students to use. The stack we ended up using was:
 
 * **MongoDB** for DB (this was the database already up and running)
 * **Node.js** for back-end
-* **Jade Bootstrap** for front-end
+* **Pug-Bootstrap** for front-end
 
 While creating and testing the program, we have used Heroku to run the 
 node.js application, and Mlab to host the database. Both of these 
