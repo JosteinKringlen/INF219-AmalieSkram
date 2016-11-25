@@ -83,3 +83,11 @@ span.caret {
     display: inline-block;
     padding-left: 4rem;
 }
+
+.footer {
+    position:fixed;
+    bottom:0;
+    left:20px;
+    width:100%;
+    height:25px;
+}
