@@ -1,0 +1,12 @@
+extends ../node_modules/pug-bootstrap/_bootstrap
+append body
+    .navbar
+        +navbar-fixed("Ekte Data","navbar","inverse")
+            li(class=(title == 'Ekte Data') ? 'active' : undefined)
+                a(href='/') Hjem
+            li(class=(title == 'Hjelp') ? 'active' : undefined)
+                a(href='/help') Hjelp
+            li(class=(title == 'Spørring') ? 'active' : undefined)
+                a(href='/queries') Spørring
+            li(class=(title == 'Info') ? 'active' : undefined)
+                a(href='/about') Info
