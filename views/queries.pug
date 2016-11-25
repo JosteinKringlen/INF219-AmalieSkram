@@ -49,7 +49,7 @@ append body
                     -dataInfo += "\"Gjennomsnitt uke\" gir ukesgjennomsnitt f.o.m. startdatoens ukenr. t.o.m. sluttdatoens ukenr. <br/><br/>"
                     -dataInfo += "\"Gjennomsnitt måned\" gir månedsgjennomsnitt f.o.m. startdatoens måned, t.o.m. sluttdatoens måned. <br/><br/>"
                     -dataInfo += "\"Gjennomsnitt år\" gir årsgjennomsnitt f.o.m. startdatoens årstall, t.o.m. sluttdatoens årstall."
-                    span.glyphicon.text-info(class="glyphicon-info-sign",aria-hidden="true", data-toggle="popover" ,data-trigger="hover",data-content="#{dataInfo}", data-html="true")
+                    span.glyphicon.text-info(class="glyphicon-info-sign",aria-hidden="true", data-toggle="popover" ,data-trigger="hover",data-content=dataInfo, data-html="true")
                 .section
                     .sectionInput
                         +input("text", "fromDate", "DD/MM/YYYY", "Startdato", "startdato")
@@ -57,7 +57,7 @@ append body
                         +input("text", "toDate", "DD/MM/YYYY", "Sluttdato", "sluttdato")
                 .infoIcon
                     -dateInfo = "Første tilgjengelige dato er 12/05/15."
-                    span.glyphicon.text-info(class="glyphicon-info-sign",aria-hidden="true", data-toggle="popover" ,data-trigger="hover",data-content="#{dateInfo}", data-html="true")
+                    span.glyphicon.text-info(class="glyphicon-info-sign",aria-hidden="true", data-toggle="popover" ,data-trigger="hover",data-content=dateInfo, data-html="true")
                 .dropdown
                     select(id="fromHour", name="fromHour" disabled=true)
                         option(value="0" disabled=true selected=true) Starttid
@@ -83,7 +83,7 @@ append body
                     -depthInfo = "\"Alle målinger\" gir alle målinger gjort i den valgte målingsperioden. <br/><br/>"
                     -depthInfo += "\"Vertikalt gjennomsnitt\" gir gjennomsnittet av alle dybdene, for alle valgte tidspunkt. <br/><br/>"
                     -depthInfo += "\"Dybde mellom\" gir alle målingene f.o.m den første dybden t.o.m den andre dybden, for alle valgte tidspunkt."
-                    span.glyphicon.text-info(class="glyphicon-info-sign",aria-hidden="true", data-toggle="popover" ,data-trigger="hover",data-content="#{depthInfo}", data-html="true")
+                    span.glyphicon.text-info(class="glyphicon-info-sign",aria-hidden="true", data-toggle="popover" ,data-trigger="hover",data-content=depthInfo, data-html="true")
                 .dropdown
                     select(id="depthFrom", name="depthFrom" disabled=true)
                         option(value="0.5" disabled=true selected=true) Dybde fra

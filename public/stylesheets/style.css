@@ -83,3 +83,10 @@ span.caret {
     display: inline-block;
     padding-left: 4rem;
 }
+
+.navbar {
+    left: 0;
+    right: 0;
+    width: 100%;
+    border-radius: 0;
+}
