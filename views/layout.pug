@@ -1,5 +1,6 @@
 extends ../node_modules/pug-bootstrap/_bootstrap
 append body
+    link(rel='stylesheet' href='/stylesheets/style.css')
     .navbar
         +navbar-fixed("Ekte Data","navbar","inverse")
             li(class=(title == 'Ekte Data') ? 'active' : undefined)
@@ -10,3 +11,7 @@ append body
                 a(href='/queries') Spørring
             li(class=(title == 'Info') ? 'active' : undefined)
                 a(href='/about') Info
+
+    footer
+        .container
+            p © Ekte data av André Dyrstad, Kaja Dey, Jostein Kringlen og Vegar Rørvik
