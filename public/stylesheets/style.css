@@ -93,5 +93,11 @@ footer {
     background-color: #d0d3c8;
     padding-top: 1em;
     z-index: 150;
-    vertical-align: baseline;
+
+}
+
+@media screen and (max-width: 648px){
+    footer p{
+        font-size: 80%;
+    }
 }
