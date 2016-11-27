@@ -8,7 +8,6 @@ var bodyParser = require('body-parser');
 var routes = require('./routes/index');
 var users = require('./routes/users');
 var api = require('./routes/api');
-var queries = require('./routes/queries');
 var help = require('./routes/help');
 var about = require('./routes/about');
 
@@ -29,7 +28,6 @@ app.use(express.static(path.join(__dirname, 'public')));
 app.use('/', routes);
 app.use('/users', users);
 app.use('/api', api);
-app.use('/queries', queries);
 app.use('/help', help);
 app.use('/about', about);
 

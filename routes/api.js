@@ -8,10 +8,10 @@ var assert = require('assert');
 var stringify = require('json-stable-stringify');
 
 /**
- * @req variables chosen in queries.pug and fixed in choicesActions
+ * @req variables chosen in index.pug and fixed in choicesActions
  * @res TODO
  * @next TODO
- * Query that retrieves all Data when "All Data" is chosen in queries.pug
+ * Query that retrieves all Data when "All Data" is chosen in index.pug
  */
 router.get('/allData', function (req, res, next) {
     var parameter = req.query.parameter;
@@ -78,10 +78,10 @@ router.get('/allData', function (req, res, next) {
 });
 
 /**
- * @req variables chosen in queries.pug and fixed in choicesActions
+ * @req variables chosen in index.pug and fixed in choicesActions
  * @res TODO
  * @next TODO
- * Query that retrieves Vertial Average of All Data when "All Data" and "Vertikalt Snitt" are chosen in queries.pug
+ * Query that retrieves Vertial Average of All Data when "All Data" and "Vertikalt Snitt" are chosen in index.pug
  */
 router.get('/allDataVerticalAverage', function (req, res, next) {
     var parameter = req.query.parameter;
@@ -208,10 +208,10 @@ router.get('/monthlyAverage', function (req, res, next) {
 });
 
 /**
- * @req variables chosen in queries.pug and fixed in choicesActions
+ * @req variables chosen in index.pug and fixed in choicesActions
  * @res TODO
  * @next TODO
- * Query that retrieves Vertial Average on monthly basis when "Gjennomsnitt måned" and "Vertikalt Snitt" are chosen in queries.pug
+ * Query that retrieves Vertial Average on monthly basis when "Gjennomsnitt måned" and "Vertikalt Snitt" are chosen in index.pug
  */
 router.get('/monthlyAverageVerticalAverage', function (req, res, next) {
 
@@ -334,10 +334,10 @@ router.get('/24hourAverage', function (req, res, next) {
 });
 
 /**
- * @req variables chosen in queries.pug and fixed in choicesActions
+ * @req variables chosen in index.pug and fixed in choicesActions
  * @res TODO
  * @next TODO
- * Query that retrieves Vertial Average on daily basis when "Gjennomsnitt døgn" "Vertikalt Snitt" are chosen in queries.pug
+ * Query that retrieves Vertial Average on daily basis when "Gjennomsnitt døgn" "Vertikalt Snitt" are chosen in index.pug
  */
 router.get('/24hourAverageVerticalAverage', function (req, res, next) {
 
@@ -460,10 +460,10 @@ router.get('/weeklyAverage', function (req, res, next) {
 });
 
 /**
- * @req variables chosen in queries.pug and fixed in choicesActions
+ * @req variables chosen in index.pug and fixed in choicesActions
  * @res TODO
  * @next TODO
- * Query that retrieves Vertial Average on weekly basis when "Gjennomsnitt uke" and"Vertikalt Snitt" are chosen in queries.pug
+ * Query that retrieves Vertial Average on weekly basis when "Gjennomsnitt uke" and"Vertikalt Snitt" are chosen in index.pug
  */
 router.get('/weeklyAverageVerticalAverage', function (req, res, next) {
 
@@ -573,10 +573,10 @@ router.get('/yearlyAverage', function (req, res, next) {
 });
 
 /**
- * @req variables chosen in queries.pug and fixed in choicesActions
+ * @req variables chosen in index.pug and fixed in choicesActions
  * @res TODO
  * @next TODO
- * Query that retrieves Vertial Average on yearly basis when "Gjennomsnitt år" and "Vertikalt Snitt" are chosen in queries.pug
+ * Query that retrieves Vertial Average on yearly basis when "Gjennomsnitt år" and "Vertikalt Snitt" are chosen in index.pug
  */
 router.get('/yearlyAverageVerticalAverage', function (req, res, next) {
 
