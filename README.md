@@ -1,7 +1,4 @@
-# INF219-AmalieSkram
-Gruppeprosjekt i INF219 for Amalie Skram
-
-## Making data available - Real data for students
+# Making data available - Real data for students
 This project was started by Amalie Skram high school in Bergen, Norge. 
 Having the possibility to use "real data" for tasks and problems for the
 students, they wanted to use the buoy Gabriel in Store Lungaardsvann and
@@ -26,7 +23,7 @@ probably going to be hosted by the University in Bergen itself.
 
 ## This is the foundation (hopefully) of a bigger project
 This project and this repository is hopefully the foundation of a bigger
-project. There are monitoring stations like the buoy Gabriel many places,
+project. There are monitoring stations like the buoy Gabriel in many places,
 everything from weather stations to drill holes in the mountains, where
 data is measured, but not easily available for the public, or schools,
 to use. These measurements, if saved in the same way, can hopefully use 
@@ -34,3 +31,23 @@ our code, probably needing some adjustments, but hopefully not many, to
 make it available in the same way, in the same portal created here.
 
 
+### Installation
+The installation is easy, and can be done locally on a machine, or on a server.
+To install and run the project, you need to have Node.js installed. For more information on Node.js, and installation guides, check out https://nodejs.org/en/
+
+When Node.js is installed, clone the project:
+`git clone https://github.com/JosteinKringlen/INF219-EkteData.git`
+
+After that, enter the project folder and run the following command:
+
+`npm install`
+
+This will install all the necessary files for the project to run.
+
+
+When the installation is done, you can start the project!
+
+This can be done by either running _www.js_ in the _bin_ folder **or**
+running the following command:
+
+`npm start`
