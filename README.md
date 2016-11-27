@@ -36,6 +36,7 @@ The installation is easy, and can be done locally on a machine, or on a server.
 To install and run the project, you need to have Node.js installed. For more information on Node.js, and installation guides, check out https://nodejs.org/en/
 
 When Node.js is installed, clone the project:
+
 `git clone https://github.com/JosteinKringlen/INF219-EkteData.git`
 
 After that, enter the project folder and run the following command:
@@ -45,8 +46,8 @@ After that, enter the project folder and run the following command:
 This will install all the necessary files for the project to run.
 
 
-When the installation is done, you can start the project!
 
+When the installation is done, you can start the project!
 This can be done by either running _www.js_ in the _bin_ folder **or**
 running the following command:
 
