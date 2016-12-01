@@ -73,6 +73,7 @@ span.caret {
 
 #acceptButton {
     display: block;
+    margin-bottom: 5em;
 }
 
 #saveButton,#clipboardButton{
@@ -84,9 +85,19 @@ span.caret {
     padding-left: 4rem;
 }
 
-.navbar {
-    left: 0;
-    right: 0;
-    width: 100%;
-    border-radius: 0;
+footer {
+    position: fixed;
+    bottom:0;
+    width:100%;
+    height:3em;
+    background-color: #d0d3c8;
+    padding-top: 1em;
+    z-index: 150;
+
+}
+
+@media screen and (max-width: 648px){
+    footer p{
+        font-size: 80%;
+    }
 }

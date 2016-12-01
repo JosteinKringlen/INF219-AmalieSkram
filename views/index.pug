@@ -62,14 +62,14 @@ append body
                     select(id="fromHour", name="fromHour" disabled=true)
                         option(value="0" disabled=true selected=true) Starttid
                         -for(var i = 0;i<24;i+=3){
-                        option(value="#{i}") #{i}:00
+                        option(value=i) #{i}:00
                         -}
                     span.caret
                 .dropdown
                     select(id="toHour", name="toHour" disabled=true)
                         option(value="23" disabled=true selected=true) Sluttid
                         -for(var i = 0;i<24;i += 3){
-                        option(value="#{i}") #{i}:00
+                        option(value=i) #{i}:00
                         -}
                     span.caret
                 .dropdown
@@ -88,14 +88,14 @@ append body
                     select(id="depthFrom", name="depthFrom" disabled=true)
                         option(value="0.5" disabled=true selected=true) Dybde fra
                         -for(var i = 0.5;i<19;i++){
-                        option(value="#{i}") #{i}m
+                        option(value=i) #{i}m
                         -}
                     span.caret
                 .dropdown
                     select(id="depthTo", name="depthTo" disabled=true)
                         option(value="18.5" disabled=true selected=true) Dybde til
                         -for(var i = 0.5;i<19;i++){
-                        option(value="#{i}") #{i}m
+                        option(value=i) #{i}m
                         -}
                     span.caret
 
