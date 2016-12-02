@@ -386,7 +386,10 @@ function convertToQueryFormat(list) {
 
 function runQuery(req) {
     //var hostLink = 'http://localhost:3000';
-    var hostLink = 'http://ektedata.herokuapp.com';
+    //var hostLink = 'http://ektedata.herokuapp.com';
+
+    var hostLink = 'https://ektedata.uib.no/gabrieldata/hent';
+
     if(req[4]==='VerticalAverage') {
         $.get(hostLink + '/api/' + req[1] + req[4], {
             parameter: req[0],
