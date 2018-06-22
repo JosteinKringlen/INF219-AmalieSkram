@@ -1,13 +1,10 @@
 # Making data available - Real data for students
-This project was started by Amalie Skram high school in Bergen, Norge. 
+This project was started by Amalie Skram high school in Bergen, Norway. 
 Having the possibility to use "real data" for tasks and problems for the
 students, they wanted to use the buoy Gabriel in Store Lungaardsvann and
 its measurements, and making these measurements available to the students.
 
-When this project was initiated, the database and data for a bit over a
-existed. Amalie Skram high school asked for volunteers from the
-University in Bergen to create their solution. A group of four students
-picked up the offer, and using the project as a course in our studies.
+When this project was initiated, the database already had data going back to May 2015, but there was no simple way for the students to access this information. Amalie Skram high school asked for volunteers from the University in Bergen to create their solution. A group of four students picked up the offer, and using the project as a course in our studies. The result can be found here: http://www.ektedata.no/no/innhold/utvalg-av-data
 
 What needed to be done was connecting the database to a user friendly 
 environment for the students to use. The stack we ended up using was:
